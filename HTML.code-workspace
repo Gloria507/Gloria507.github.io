@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "HTML"
+		},
+		{
+			"path": "C:/Users/ASUS/Desktop/picture"
+		},
+		{
+			"path": "JavaScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript"
+	}
+}
