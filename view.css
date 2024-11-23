@@ -18,12 +18,20 @@
         font-size: 1.2em;
        }
     button.small{
+        color: rgb(223, 43, 226);
         width: 30%;
         padding: 0.1em 0.2em;  
     }
+    button.small:hover{
+        color: rgb(136, 0, 255) ;
+    }
     button.big{
+        color: rgb(223, 43, 226);
         width: 45%;
         padding: 0.1em 0.5em;  
+    }
+    button.big:hover{
+        color: rgb(136, 0, 255) ;
     }
     main{
         margin-top: 1em;
@@ -59,6 +67,9 @@
         font-size: 1.3rem ;
         margin-right: 1em;
     }
+    form button:hover{
+        color: rgb(136, 0, 255) ;
+    }
     footer{
         height: 20% ;
         font-size:1.2em;
@@ -83,11 +94,11 @@
       color: red ;
     }
     p.cn.wrong{
-      background-color: gray;
+      background-color: rgb(1, 128, 128);
       color:white;
     }
     p.cn:hover{
-        color: blue ;
+        color: rgb(255, 0, 144) ;
     }
     header span#response{
         font-size: 0.8em;
