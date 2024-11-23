@@ -114,12 +114,16 @@
             // console.log(cn.textContent) ;
             let txt = cn.textContent ;
             let pos = Model.pos ;
+            let arr1=['0x1F600','0x1F601','0x1F602','0x1F923','0x1F642','0x1F917'];
+            let arr2=['0x1F62D','0x1F622','0x1F97A','0x1F641','0x2639 FE0F'];
+            let randomIndex1 = Math.floor(Math.random() * arr1.length);
+            let randomIndex2 = Math.floor(Math.random() * arr2.length);
             if(txt === Model.learning[pos].cn){
-               UI.response("答对了!");
+               UI.response(String.fromCodePoint(arr1[randomIndex1])+"对了"+String.fromCodePoint(arr1[randomIndex1]));
                Model.learning[pos].level -- ;
                this.className += ' right' ;
             }else{
-               UI.response("答错了!");
+               UI.response(String.fromCodePoint(arr2[randomIndex2])+"错了"+String.fromCodePoint(arr2[randomIndex2]));
                Model.learning[pos].level ++ ;
                this.className += ' wrong' ;
             }
